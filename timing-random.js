@@ -17,6 +17,8 @@ function numarray() {
 }
 alert(numarray());
 
+var arrayrnd = numarray();
+
 function numberImput(){
 var numeroConfronto = [];
 var numeroInserito;
@@ -27,7 +29,9 @@ for (var i = 0; i < 2; i++) {
 return numeroConfronto;
 }
 
-if (numarray() == numberImput()) {
+var firstLevel =numberImput();
+
+if (firstLevel == arrayrnd) {
   alert("prossimo livello")
 }else {
   alert("livello fallito")
